@@ -1,0 +1,414 @@
+body {
+    width: 100%;
+    background-color: #0f0616;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+  }
+  main {
+    width: 100%;
+    min-height: calc(100vh - 1rem); 
+    max-height: calc(100vh - 1rem); 
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    padding: 10px;
+    background-color: #0f0616;
+    margin-top: -50px;
+    margin-left: -50px;
+    display: flex;
+    border-radius: 0.5rem;
+    gap: 20px; 
+    align-items: center;
+  }
+  header h1{
+    color: orange;
+    margin-right: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+  }
+  header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 1.5rem;
+  }
+  li {
+    list-style-type: none;
+  }
+  li a{
+    font-size: x-large;
+    color: orange;
+  }
+  textarea{
+    border-radius: 1;
+    font-size: large;
+    margin-left: -50px;
+    margin-top: -100px;
+  }
+  body f h1{
+    color: greenyellow;
+  }
+  body f h3{
+    margin-top: -5px;
+    color: white;
+  }
+  body c h3{
+    margin-top: 20px;
+    color: white;
+  }
+  body h2{
+    color: greenyellow;
+  }
+  body h3{
+    margin-top: 1px;
+    color: white;
+  }
+  body u h2{
+    color: orange;
+    margin-top: 130px;
+    margin-left: -130px;
+    text-align: center;
+  }
+  body d h2{
+    margin-top: 50px;
+    color: yellow;
+  }
+  body d g h2{
+    margin-top: -960px;
+    margin-left: 1px;
+    text-align: start;
+    color: yellow;
+  }
+  body t h3{
+    margin-top: -1200px;
+  }
+  body t p h3{
+    margin-top: -200px;
+  }
+  y p{
+    margin-top: 50px;
+  }
+  button{
+    border: none;
+  }
+  img{
+    width: 320px;
+    height: 300px;
+    border-radius: 1.5rem;
+    border-color: black;
+  }
+  body w img{
+    width: 320px;
+    height: 320px;
+    margin-top: 1270px;
+    margin-left: -740px;
+    border-radius: 1.5rem;
+    border-color: black;
+    cursor: pointer;
+  }
+  body x img{
+    width: 320px;
+    height: 320px;
+    margin-top: 170px;
+    margin-left: 500px;
+    border-radius: 1.5rem;
+    border-color: black;
+    cursor: pointer;
+  }
+  body y img{
+    width: 320px;
+    height: 320px;
+    margin-top: 1270px;
+    margin-left: -740px;
+    border-radius: 1.5rem;
+    border-color: black;
+    cursor: pointer;
+  }
+  body z img{
+    width: 350px;
+    height: 350px;
+    margin-left: 4px;
+  }
+  body d b img{
+    width: 350px;
+    height: 350px;
+    margin-left: 40px;
+  }
+  body d c img{
+    width: 350px;
+    height: 350px;
+    margin-top: 665px;
+  }
+  body n img{
+    width: 350px;
+    height: 350px;
+    margin-left: 45px;
+  }
+  body o img{
+    width: 350px;
+    height: 350px;
+    margin-left: 45px;
+  }
+  a img{
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+  }
+  f img{
+    width: 350px;
+    height: 350px;
+    margin-right: 6px;
+  }
+  a1 img{
+    width: 350px;
+    height: 350px;
+    margin-right: 60px;
+  }
+  b1 img{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    left: 40px;
+  }
+  c1 img{
+    width: 350px;
+    height: 350px;
+    margin-right: 60px;
+  }
+  f1 img{
+    width: 350px;
+    height: 350px;
+    margin-left: 60px;
+  }
+  g1 img{
+    width: 350px;
+    height: 350px;
+    margin-left: -60px;
+  }
+  m1 img{
+    width: 350px;
+    height: 350px;
+    margin-right: 60px;
+  }
+  z1 img {
+    width: 350px;
+    height: 350px;
+    margin-right: 60px;
+  }
+  p img{
+    width: 350px;
+    height: 310px;
+    margin-left: 380px;
+    position: relative;
+    top: -700px;
+  }
+  c img{
+    width: 350px;
+    height: 300px;
+    margin-left: 485px;
+    position: relative;
+    top: -1020px;
+    left: 315px;
+  }
+  r img{
+    width: 350px;
+    height: 300px;
+    margin-left: 70px;
+    position: relative;
+    top: -950px;
+    left: 310px;
+  }
+  t img{
+    width: 360px;
+    height: 300px;
+    margin-left: 50px;
+    position: relative;
+    top: -1255px;
+    left: 735px;
+  }
+  d img{
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+  }
+  e img{
+    width: 350px;
+    height: 350px;
+    margin-right: 60px;
+    cursor: pointer;
+  }
+  g img{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  k img{
+    width: 350px;
+    height: 350px;
+    margin-left: 40px;
+    margin-top:-5px
+  }
+  l img{
+    width: 300px;
+    height: 300px;
+    margin-top: -2000px;
+  }
+  m img{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+  }
+  o img{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  q img{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+  }
+  s img{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+  }
+  g h2{
+    color: white;
+    text-align: center;
+    margin-left: -220px;
+  }
+  z h3{
+    color: white;
+    margin-top: -1240px;
+  }
+  .user-box
+  {
+    flex: 1 1 0%;
+    overflow-y: auto;
+  }
+  .flex-1
+  {
+    padding: 0.5rem;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .flex-2
+  {
+    gap: 2px;
+    align-items: center;
+  }
+  .gap-2
+  {
+    gap: 300px;
+  }
+  .user-chat
+  {
+    width: 85px;
+    height: 85px;
+    padding: 25px;
+    padding-top: 1px;
+    margin-left: -18px;
+    border-radius: 1.5rem;
+  }
+  .ai-chat
+  {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-left: -10px;
+    border-radius: 1.5rem;
+  }
+  .font-1
+  {
+    color: greenyellow;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    top: -60px; /* ปรับค่าตามต้องการ */
+    left: 1%;
+    transform: translateX(-50%);
+    display: inline;
+    margin-top: 100px;
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    background-color: navy;
+  }
+  .font-2
+  {
+    color: black;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    top: -100px; /* ปรับค่าตามต้องการ */
+    left: 9.5%;
+    transform: translateX(-50%);
+    display: inline;
+    margin-top: -10px;
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    font-size: 19px;
+    background-color: goldenrod;
+  }
+  .font-3
+  {
+    color: greenyellow;
+    padding: 10px;
+    position: absolute;
+    top: 110px; /* ปรับค่าตามต้องการ */
+    left: 42%;
+    transform: translateX(-50%);
+    display: inline;
+    margin-top: 100px;
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    background-color: navy;
+  }
+  .font-4
+  {
+    color: greenyellow;
+    padding: 10px;
+    position: absolute;
+    top: 110px; /* ปรับค่าตามต้องการ */
+    left: 42%;
+    transform: translateX(-50%);
+    display: inline;
+    margin-top: 100px;
+    margin-left: 10px;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    background-color: navy;
+  }
+  .box
+  {
+    color: black;
+    padding: 4.5rem;
+    margin-left: 150px;
+    border-radius: 3rem;
+    align-items: center;
+  }
+  .send
+  {
+    font-size: x-large;
+    padding: 1rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 0.5rem;
+    border-color: none;
+    color: navy;
+    background-color: orange;
+    margin-left: 10px;
+    margin-top: -67px;
+    position: absolute;
+  }
