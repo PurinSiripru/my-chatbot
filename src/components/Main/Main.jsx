@@ -37,7 +37,7 @@ const Main = () => {
                 </div>
                 <div className="card">
                     <p>-ห้างสรรพสินค้า<p></p>ชื่อดังในโคราช</p>
-                    <n><img src={assets.mall_icon} alt="" /></n>
+                    <n><img onClick ={()=>onSent()}src={assets.mall_icon} alt="" /></n>
                 </div>
             </div>
             </>

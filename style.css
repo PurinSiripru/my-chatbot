@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 3rem;
+    padding-left: 70px;
   }
   main {
     width: 100%;
@@ -36,12 +37,29 @@ body {
     height: 150px;
     border-radius: 1.5rem;
   }
+  .sidebar {
+    background-color: orange;
+    width: 2px;
+    padding: 20px;
+    position: fixed; /* กำหนดให้ Sidebar อยู่ตำแหน่งคงที่ */
+    top: 0; /* กำหนดให้ Sidebar อยู่ด้านบนสุดของหน้าจอ */
+    left: 0; /* กำหนดให้ Sidebar อยู่ด้านซ้ายสุดของหน้าจอ */
+    height: 100%; /* กำหนดให้ Sidebar มีความสูงเต็มหน้าจอ */
+  }
   li {
     list-style-type: none;
   }
   li a{
     font-size: x-large;
     color: orange;
+  }
+  li a img{
+    width: 150px;
+    height: 150px;
+    border-radius: 1.5rem;
+  }
+  li a:hover{
+    opacity: 0.7;
   }
   textarea{
     border-radius: 1;
@@ -52,8 +70,20 @@ body {
   body f h1{
     color: greenyellow;
   }
+  body h3{
+    color: white;
+  }
+  body h4{
+    color: white;
+  }
+  body h4:hover{
+    opacity: 0.7;
+  }
   body f h3{
     margin-top: -5px;
+    color: white;
+  }
+  body b h3{
     color: white;
   }
   body c h3{
@@ -63,15 +93,15 @@ body {
   body h2{
     color: greenyellow;
   }
-  body h3{
-    margin-top: 1px;
-    color: white;
-  }
   body u h2{
     color: orange;
     margin-top: 130px;
     margin-left: -130px;
     text-align: center;
+  }
+  body d h1{
+    color: pink;
+    margin-top: 40px;
   }
   body d h2{
     margin-top: 50px;
@@ -100,6 +130,9 @@ body {
     height: 300px;
     border-radius: 1.5rem;
     border-color: black;
+  }
+  img:hover{
+    opacity: 0.5;
   }
   body w img{
     width: 320px;
